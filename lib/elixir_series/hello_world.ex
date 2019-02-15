@@ -3,5 +3,3 @@ defmodule HelloWorld do
         IO.puts("Hello World!")
     end
 end
-
-HelloWorld.hello_world()
