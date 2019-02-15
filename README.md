@@ -8,4 +8,4 @@ elixir ./hello_world.exs
 ```
 
 ### Reference Video
-[https://youtu.be/4W7AxdT3oe4](https://youtu.be/4W7AxdT3oe4)
+[https://youtu.be/9adFpDdH3jg](https://youtu.be/9adFpDdH3jg)
