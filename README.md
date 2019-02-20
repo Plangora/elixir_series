@@ -1,11 +1,15 @@
 # Elixir Series from Plangora
 
-## Hello World
+## Intro to Mix
 
-### To run:
+### To create a mix project in current directory:
 ```bash
-elixir ./hello_world.exs
+mix new .
+```
+### To create a mix project in a new directory/path:
+```bash
+mix new new_directory
 ```
 
 ### Reference Video
-[https://youtu.be/9adFpDdH3jg](https://youtu.be/9adFpDdH3jg)
+[hhttps://youtu.be/383i4YK8TbQ](https://youtu.be/383i4YK8TbQ)
