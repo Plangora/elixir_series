@@ -1,11 +1,16 @@
 # Elixir Series from Plangora
 
-## Hello World
+## Intro to Mix
 
-### To run:
+### To run iEx without current Mix project:
 ```bash
-elixir ./hello_world.exs
+iex
+```
+
+### to run iEx with current Mix project:
+```bash
+iex -S mix
 ```
 
 ### Reference Video
-[https://youtu.be/9adFpDdH3jg](https://youtu.be/9adFpDdH3jg)
+[https://youtu.be/OG2no27N0Yc](https://youtu.be/OG2no27N0Yc)
