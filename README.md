@@ -3,4 +3,4 @@
 ## Case Statement
 
 ### Reference Video
-[https://youtu.be/ElL6Zma5Nmg](https://youtu.be/ElL6Zma5Nmg)
+[https://youtu.be/t4lNLPL_gDA](https://youtu.be/t4lNLPL_gDA)
