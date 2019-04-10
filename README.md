@@ -1,13 +1,17 @@
 # Elixir Series from Plangora
 
-## Maps
+## Structs
 
 Protect yourself with setting default values, when required:
 ```elixir
-map = %{a: "Hello"}
-map = Map.put_new(map, :a, "hi")
-# => %{a: "Hello"} # will not overwrite when using Map.put_new/3
+iex> %ElixirSeries.Person{}
+** (ArgumentError) the following keys must also be given when building struct ElixirSeries.Person: [:first_name, :last_name]
+```
+
+Create a struct with required keys:
+```elixir
+person = %ElixirSeries.Person{first_name: "Joe", last_name: "Smith"}
 ```
 
 ### Reference Video
-[https://youtu.be/Ir1_bUeOjPM](https://youtu.be/Ir1_bUeOjPM)
+[https://youtu.be/-ExrEH07JBc](https://youtu.be/-ExrEH07JBc)
