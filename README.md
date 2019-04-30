@@ -1,16 +1,25 @@
 # Elixir Series from Plangora
 
-## Structs
+## Lists
 
-Protect yourself with setting default values, when required:
+Lists are just elements in a single-linked list format with the last element being an empty list:
 ```elixir
-iex> %ElixirSeries.Person{}
-** (ArgumentError) the following keys must also be given when building struct ElixirSeries.Person: [:first_name, :last_name]
+iex> list = [1]
+[1]
+iex> [head|tail] = list
+[1]
+iex> head
+1
+iex> tail
+[]
 ```
 
-Create a struct with required keys:
+Can use the previous knowledge to iterate through lists like counting elements:
 ```elixir
-person = %ElixirSeries.Person{first_name: "Joe", last_name: "Smith"}
+iex> ElixirSeries.Lists.count([])
+0
+iex> ElixirSeries.Lists.count([1,2,3,4])
+4
 ```
 
 ### Reference Video
