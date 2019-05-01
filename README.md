@@ -23,4 +23,4 @@ iex> ElixirSeries.Lists.count([1,2,3,4])
 ```
 
 ### Reference Video
-[https://youtu.be/-ExrEH07JBc](https://youtu.be/-ExrEH07JBc)
+[https://youtu.be/_3vcQ1Gz2Qk](https://youtu.be/_3vcQ1Gz2Qk)
