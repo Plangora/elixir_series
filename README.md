@@ -1,26 +1,22 @@
 # Elixir Series from Plangora
 
-## Lists
+## Processes
 
-Lists are just elements in a single-linked list format with the last element being an empty list:
+Proccesses can easily be started with the spawn command:
 ```elixir
-iex> list = [1]
-[1]
-iex> [head|tail] = list
-[1]
-iex> head
-1
-iex> tail
-[]
+iex> spawn(fn -> IO.puts("I'm in my own process") end)
+I'm in my own process
+#PID<0.106.0>
 ```
 
-Can use the previous knowledge to iterate through lists like counting elements:
+Can also spawn a function from a module:
 ```elixir
-iex> ElixirSeries.Lists.count([])
-0
-iex> ElixirSeries.Lists.count([1,2,3,4])
-4
+iex> pid = spawn(ElixirSeries.Process, :loop, [])
+#PID<0.134.0>
+iex> send(pid, {:add, 1, 2})
+1 + 2 = 3
+{:add, 1, 2}
 ```
 
 ### Reference Video
-[https://youtu.be/-ExrEH07JBc](https://youtu.be/-ExrEH07JBc)
+[https://youtu.be/RR3SQQB1OnQ](https://youtu.be/RR3SQQB1OnQ)
